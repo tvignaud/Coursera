@@ -54,8 +54,8 @@ The set of variables that were estimated from these signals are:
 * bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 * angle(): Angle between to vectors.
 
-from this list, only mean() and std() for each feature were kept during data extraction.
-you can extract the full set by editing the  script and extracting the data full table
+**From this list, only mean() and std() for each feature were kept during data extraction.**
+You can extract the full set by editing the  script and extracting the data full table
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
@@ -66,12 +66,11 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroJerkMean
 
 ## mean_std_data_set
-one line per observation
-appart from previously described variables you will find in the 3 first rows
+One line per observation. Appart from previously described variables you will find in the 2 first columns:
 * Subject_id : the id of the subject corresponding to this observation
 * Activity_explicit : the activity performed during the observation
 
 ## mean_std_ave_over_subject_and_activity
-same variables as before
-computed from mean_std_data_set by averaging variables over all possible (subject,activity) association.
+Same variables as before, computed from mean_std_data_set by averaging variables over all possible (subject,activity) association.
+
 Accordingly, you will find one row per possible (subject,activity) association
