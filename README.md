@@ -12,5 +12,6 @@
 * replaces activity id by explicit activity factor
 * keeps only mean and std for each feature
 * averages features over each possible (subject,id) association 
-* returns a tidy data set with one row per possible (ie 180 in this case)
+* returns a tidy data set with one row per possible (ie 180 in this case).
+
 You will find explicit comment all along the file to help you understand it
